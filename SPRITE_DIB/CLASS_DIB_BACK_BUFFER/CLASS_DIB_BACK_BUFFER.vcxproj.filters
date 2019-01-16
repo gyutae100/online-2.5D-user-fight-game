@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FRAME_SKIP">
+      <UniqueIdentifier>{ab7f1c40-75e1-479b-9413-9eb24a0a5bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJECTS">
+      <UniqueIdentifier>{e8819a90-2969-4202-9d58-3134d6e316fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCEAN">
+      <UniqueIdentifier>{28823e9e-3dd1-4241-b1b5-1edb8fdbc826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CONFIG_SETTING">
+      <UniqueIdentifier>{06869f19-cc8f-451e-a4de-622ac6fc302d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME_MAIN_LOOP">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{38139cf8-a79a-4e45-abd0-b25fc5ca92f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.5D_GRAPHIC">
+      <UniqueIdentifier>{32326ff5-151a-4f70-87c8-178f3d998e58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CFrameSkip.h">
+      <Filter>FRAME_SKIP</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_CSCREEN_DIB.h">
+      <Filter>2.5D_GRAPHIC</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_CSPRITE_DIB.h">
+      <Filter>2.5D_GRAPHIC</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseObject.h">
+      <Filter>OBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerObject.h">
+      <Filter>OBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpriteNode.h">
+      <Filter>SCEAN</Filter>
+    </ClInclude>
+    <ClInclude Include="CPacket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcRecvPacket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateSendPacket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>GAME_MAIN_LOOP</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>GAME_MAIN_LOOP</Filter>
+    </ClCompile>
+    <ClCompile Include="CFrameSkip.cpp">
+      <Filter>FRAME_SKIP</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_CSCREEN_DIB.cpp">
+      <Filter>2.5D_GRAPHIC</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_CSPRITE_DIB.cpp">
+      <Filter>2.5D_GRAPHIC</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseObject.cpp">
+      <Filter>OBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerObject.cpp">
+      <Filter>OBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpriteNode.cpp">
+      <Filter>SCEAN</Filter>
+    </ClCompile>
+    <ClCompile Include="df_sprite_setting.h">
+      <Filter>CONFIG_SETTING</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseScean.h">
+      <Filter>SCEAN</Filter>
+    </ClCompile>
+    <ClCompile Include="CStreamSQ.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CStreamSQ.h">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="df_packet_header.h">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseScean.cpp">
+      <Filter>SCEAN</Filter>
+    </ClCompile>
+    <ClCompile Include="CPacket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateSendPacket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcRecvPacket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CLASS_DIB_BACK_BUFFER.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="CLASS_DIB_BACK_BUFFER.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
